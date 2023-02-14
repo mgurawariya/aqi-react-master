@@ -1,0 +1,116 @@
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.cityList {
+  padding-right: 44px;
+}
+
+.cityInfo {
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.cityInfo.good {
+  background-color: #0f4c08;
+  color: #000000;
+  border-color: #6f966a;
+}
+
+.cityInfo.moderate {
+  background-color: #11509e;
+  color: #000000;
+  border-color: #78774b;
+}
+
+.cityInfo.unhealthy-sentitive {
+  background-color: #b73109;
+  color: #FFFFFF;
+  border-color: #724827;
+}
+
+.cityInfo.unhealthy {
+  background-color: #870c10;
+  color: #FFFFFF;
+  border-color: #824346;
+}
+
+.cityInfo.very-unhealthy {
+  background-color: #aa1010;
+  color: #FFFFFF;
+  border-color: #533852;
+}
+
+.cityInfo.hazardous {
+  background-color: #4b0d28;
+  color: #FFFFFF;
+  border-color: #924667;
+}
+
+.cityInfo.unknown {
+  background-color: #e9d5d5;
+  color: #000000;
+  border-color: #806363;
+}
+
+.cityInfo .details {
+  background-color: #e0bcbc;
+  color: #000000;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.dot {
+  height: 12px;
+  width: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 3px;
+  margin-top: 2px;
+}
+
+.dot.unknown {
+  background-color: #bbb;
+}
+
+.dot.good {
+  background-color: #52B947;
+}
+
+.dot.moderate {
+  background-color: #F3EC19;
+}
+
+.dot.unhealthy-sentitive {
+  background-color: #F57E20;
+}
+
+.dot.unhealthy {
+  background-color: #ED1D24;
+}
+
+.dot.very-unhealthy {
+  background-color: #7E2B7D;
+}
+
+.dot.hazardous {
+  background-color: #480D27;
+}
+
+.no-data-found {
+  background-color: #000;
+  color: #4caf50;
+  border-radius: 10px;
+  padding: 10px;
+}
